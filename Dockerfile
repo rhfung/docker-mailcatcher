@@ -1,6 +1,6 @@
 FROM ruby:2.3.1
 
-RUN gem install --no-ri --no-rdoc --conservative mailcatcher
+RUN gem install --no-ri --no-rdoc --conservative mailcatcher -v 0.6.5
 
 EXPOSE 1080 1025
 
